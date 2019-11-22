@@ -1,0 +1,24 @@
+{
+  "name": "express-json-controller",
+  "version": "1.0.4",
+  "description": "JSON based controller and router mapping middleware, based on Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "author": "Abhishek Khuntia",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.11",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
