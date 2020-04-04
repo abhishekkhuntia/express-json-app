@@ -23,10 +23,10 @@ class InitMiddleWare{
     initializeMiddleWare = async() => {
         if(this.configContent){
            await this.loadControllersMap(path.resolve(this.srcFolderPath, this.configContent.controllerPath));
-           this.dynamicRouterMap();
            if(this.cb && typeof(this.cb) == 'function'){
                this.cb(this);
            }
+           this.dynamicRouterMap();
         }
     }
     dynamicRouterMap = ()=> {

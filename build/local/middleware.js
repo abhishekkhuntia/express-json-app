@@ -55,10 +55,10 @@ var InitMiddleWare = /** @class */ (function () {
                         return [4 /*yield*/, this.loadControllersMap(path.resolve(this.srcFolderPath, this.configContent.controllerPath))];
                     case 1:
                         _a.sent();
-                        this.dynamicRouterMap();
                         if (this.cb && typeof (this.cb) == 'function') {
                             this.cb(this);
                         }
+                        this.dynamicRouterMap();
                         _a.label = 2;
                     case 2: return [2 /*return*/];
                 }
