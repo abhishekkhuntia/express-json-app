@@ -1,6 +1,6 @@
 {
   "name": "express-json-controller",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "JSON based controller and router mapping middleware, based on Express.",
   "main": "index.js",
   "scripts": {
